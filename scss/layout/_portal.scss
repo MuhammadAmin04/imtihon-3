@@ -1,0 +1,726 @@
+#portal {
+	margin-left: 20px;
+	h1 {
+		color: #140a32;
+		font-family: OpenBold;
+		font-size: 32px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		letter-spacing: -0.96px;
+	}
+	.portal-wrapper {
+		display: flex;
+		gap: 30px;
+		.left {
+			display: flex;
+			flex-direction: column;
+			gap: 15px;
+			.card {
+				display: flex;
+				align-items: center;
+				gap: 20px;
+				width: 463px;
+				height: 124px;
+				border-radius: 20px;
+				border: 1px solid rgba(47, 43, 67, 0.15);
+				padding: 20px;
+				.ism {
+					color: #140a32;
+					font-family: OpenSemiBold;
+					font-size: 18px;
+					font-style: normal;
+					font-weight: 600;
+					line-height: normal;
+				}
+				.yurist {
+					color: #140a32;
+					font-family: OpenRegular;
+					font-size: 16px;
+					font-style: normal;
+					font-weight: 400;
+					line-height: normal;
+				}
+				.konsult {
+					color: rgba(47, 43, 67, 0.5);
+					font-family: OpenRegular;
+					font-size: 16px;
+					font-style: normal;
+					font-weight: 400;
+					line-height: normal;
+				}
+			}
+			button {
+				display: flex;
+				width: 463px;
+				height: 56px;
+				padding: 16px 36px 18px 36px;
+				justify-content: center;
+				align-items: center;
+				gap: 10px;
+				border-radius: 10px;
+				border: none;
+				background: #e0ece9;
+			}
+		}
+		.right {
+			display: inline-flex;
+			height: 617px;
+			padding: 40px;
+			flex-direction: column;
+			align-items: flex-start;
+			gap: 30px;
+			position: relative;
+			border-radius: 20px;
+			background: #33836e;
+			.online {
+				display: flex;
+				padding: 5px 16px 6px 16px;
+				justify-content: center;
+				align-items: center;
+				gap: 10px;
+				position: absolute;
+				right: 30px;
+				top: 30px;
+				border-radius: 10px;
+				background: #fff;
+				border: none;
+			}
+			.txt {
+				h2 {
+					color: #fff;
+					font-family: OpenBold;
+					font-size: 32px;
+					font-style: normal;
+					font-weight: 700;
+					line-height: normal;
+					letter-spacing: -0.96px;
+				}
+				p {
+					padding-top: 10px;
+					color: #fff;
+					font-family: OpenRegular;
+					font-size: 16px;
+					font-style: normal;
+					font-weight: 400;
+					line-height: normal;
+				}
+			}
+			#problem {
+				width: 577px;
+				height: 213px;
+				padding: 12px 16px 8px 16px;
+				border-radius: 10px;
+				background: #fff;
+				border: none;
+			}
+			.send {
+				display: flex;
+				gap: 15px;
+				.nomer {
+					width: 205px;
+					height: 56px;
+					display: flex;
+					padding: 5px 16px 7px 16px;
+					flex-direction: column;
+					justify-content: center;
+					gap: 3px;
+					align-self: stretch;
+					border-radius: 10px;
+					border: 1px solid rgba(47, 43, 67, 0.15);
+					border: rgba(47, 43, 67, 0.15);
+					background: #fff;
+				}
+				.aleksey {
+					width: 205px;
+					height: 56px;
+					display: flex;
+					padding: 5px 16px 7px 16px;
+					flex-direction: column;
+					justify-content: center;
+					gap: 3px;
+					align-self: stretch;
+					border-radius: 10px;
+					border: 1px solid rgba(47, 43, 67, 0.15);
+					border: rgba(47, 43, 67, 0.15);
+					background: #fff;
+					label {
+						color: rgba(47, 43, 67, 0.4);
+						text-align: center;
+						font-family: OpenRegular;
+						font-size: 12px;
+						font-style: normal;
+						font-weight: 400;
+						line-height: normal;
+					}
+					color: #140a32;
+					text-align: center;
+					font-family: OpenRegular;
+					font-size: 16px;
+					font-style: normal;
+					font-weight: 400;
+					line-height: normal;
+				}
+				.otp {
+					padding: 16px 24px 18px 24px;
+					border-radius: 10px;
+					background: #140a32;
+					color: #fff;
+					border: none;
+				}
+			}
+			.desc {
+				color: rgba(255, 255, 255, 0.5);
+				font-family: OpenRegular;
+				font-size: 12px;
+				font-style: normal;
+				font-weight: 600;
+				line-height: normal;
+				margin-top: -15px;
+			}
+			.green-txt {
+				display: flex;
+				gap: 40px;
+				.h2 {
+					display: flex;
+					flex-direction: column;
+					gap: 10px;
+					h5 {
+						color: #fff;
+						font-family: OpenBold;
+						font-size: 20px;
+						font-style: normal;
+						font-weight: 700;
+						line-height: normal;
+						letter-spacing: -0.6px;
+					}
+					p {
+						color: #fff;
+						font-family: OpenRegular;
+						font-size: 16px;
+						font-style: normal;
+						font-weight: 400;
+						line-height: normal;
+					}
+				}
+				.p {
+					display: flex;
+					flex-direction: column;
+					gap: 10px;
+					h5 {
+						color: #fff;
+						font-family: OpenBold;
+						font-size: 20px;
+						font-style: normal;
+						font-weight: 700;
+						line-height: normal;
+						letter-spacing: -0.6px;
+					}
+					p {
+						color: #fff;
+						font-family: OpenRegular;
+						font-size: 16px;
+						font-style: normal;
+						font-weight: 400;
+						line-height: normal;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 428px) {
+	#portal {
+		margin-left: -5px;
+		margin: 0 auto;
+		h1 {
+			color: #140a32;
+			font-family: OpenBold;
+			font-size: 20px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+			letter-spacing: -0.96px;
+		}
+		.portal-wrapper {
+			display: flex;
+			flex-direction: column;
+			gap: 30px;
+			height: 628px;
+			.left {
+				display: flex;
+				flex-direction: column;
+				align-items: flex-start;
+				gap: 10px;
+				.card {
+					display: flex;
+					align-items: center;
+					gap: 20px;
+					width: 360px;
+					height: 106px;
+					border-radius: 20px;
+					border: 1px solid rgba(47, 43, 67, 0.15);
+					padding: 20px;
+					.ism {
+						padding-top: 5px;
+						color: #140a32;
+						font-family: OpenSemiBold;
+						font-size: 14px;
+						font-style: normal;
+						font-weight: 600;
+						line-height: normal;
+					}
+					.yurist {
+						color: #140a32;
+						font-family: OpenRegular;
+						font-size: 12px;
+						font-style: normal;
+						font-weight: 400;
+						line-height: normal;
+					}
+					.konsult {
+						color: rgba(47, 43, 67, 0.5);
+						font-family: OpenRegular;
+						font-size: 12px;
+						font-style: normal;
+						font-weight: 400;
+						line-height: normal;
+					}
+				}
+				button {
+					display: flex;
+					width: 360px;
+					height: 56px;
+					padding: 16px 36px 18px 36px;
+					justify-content: center;
+					align-items: center;
+					gap: 10px;
+					border-radius: 10px;
+					border: none;
+					background: #e0ece9;
+				}
+			}
+			.right {
+				display: flex;
+				height: 628px;
+				padding: 20px;
+				flex-direction: column;
+				align-items: flex-start;
+				gap: 15px;
+				position: relative;
+				border-radius: 20px;
+				background: #33836e;
+				.online {
+					display: flex;
+					// padding: 5px 12px 6px 12px;
+					justify-content: center;
+					max-width: 94px;
+					align-items: center;
+					// gap: 10px;
+					position: absolute;
+					border-radius: 10px;
+					background: #fff;
+					border: none;
+					top: 20px;
+					left: 20px;
+					// left: 0;
+					img {
+						width: 32px;
+						height: 10px;
+					}
+				}
+				.txt {
+					h2 {
+						color: #fff;
+						margin-top: 40px;
+						font-family: OpenBold;
+						font-size: 20px;
+						font-style: normal;
+						font-weight: 700;
+						line-height: normal;
+						letter-spacing: -0.96px;
+					}
+					p {
+						padding-top: 10px;
+						color: #fff;
+						font-family: OpenRegular;
+						font-size: 16px;
+						font-style: normal;
+						font-weight: 400;
+						line-height: normal;
+					}
+				}
+				#problem {
+					margin-top: -30px;
+					width: 320px;
+					height: 213px;
+					padding: 12px 16px 8px 16px;
+					border-radius: 10px;
+					background: #fff;
+					border: none;
+				}
+				.send {
+					display: flex;
+					flex-direction: column;
+					gap: 15px;
+					.nomer {
+						width: 320px;
+						height: 56px;
+						display: flex;
+						padding: 5px 16px 7px 16px;
+						flex-direction: column;
+						justify-content: center;
+						gap: 3px;
+						align-self: stretch;
+						border-radius: 10px;
+						border: 1px solid rgba(47, 43, 67, 0.15);
+						border: rgba(47, 43, 67, 0.15);
+						background: #fff;
+					}
+					.aleksey {
+						width: 320px;
+						height: 56px;
+						display: flex;
+						padding: 5px 16px 7px 16px;
+						flex-direction: column;
+						justify-content: center;
+						gap: 3px;
+						align-self: stretch;
+						border-radius: 10px;
+						border: 1px solid rgba(47, 43, 67, 0.15);
+						border: rgba(47, 43, 67, 0.15);
+						background: #fff;
+						label {
+							color: rgba(47, 43, 67, 0.4);
+							text-align: center;
+							font-family: OpenRegular;
+							font-size: 12px;
+							font-style: normal;
+							font-weight: 400;
+							line-height: normal;
+						}
+						color: #140a32;
+						text-align: center;
+						font-family: OpenRegular;
+						font-size: 16px;
+						font-style: normal;
+						font-weight: 400;
+						line-height: normal;
+					}
+					.otp {
+						padding: 16px 24px 18px 24px;
+						border-radius: 10px;
+						background: #140a32;
+						color: #fff;
+						border: none;
+					}
+				}
+				.desc {
+					color: rgba(255, 255, 255, 0.5);
+					font-family: OpenRegular;
+					font-size: 12px;
+					font-style: normal;
+					font-weight: 600;
+					line-height: normal;
+					margin-top: -15px;
+				}
+				.green-txt {
+					display: flex;
+					gap: 40px;
+					.h2 {
+						display: flex;
+						flex-direction: column;
+						gap: 10px;
+						h5 {
+							color: #fff;
+							font-family: OpenBold;
+							font-size: 20px;
+							font-style: normal;
+							font-weight: 700;
+							line-height: normal;
+							letter-spacing: -0.6px;
+						}
+						p {
+							color: #fff;
+							font-family: OpenRegular;
+							font-size: 16px;
+							font-style: normal;
+							font-weight: 400;
+							line-height: normal;
+						}
+					}
+					.p {
+						display: flex;
+						flex-direction: column;
+						gap: 10px;
+						h5 {
+							color: #fff;
+							font-family: OpenBold;
+							font-size: 20px;
+							font-style: normal;
+							font-weight: 700;
+							line-height: normal;
+							letter-spacing: -0.6px;
+						}
+						p {
+							color: #fff;
+							font-family: OpenRegular;
+							font-size: 16px;
+							font-style: normal;
+							font-weight: 400;
+							line-height: normal;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 390px) {
+	#portal {
+		margin-left: -5px;
+		h1 {
+			color: #140a32;
+			font-family: OpenBold;
+			font-size: 20px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+			letter-spacing: -0.96px;
+		}
+		.portal-wrapper {
+			display: flex;
+			flex-direction: column;
+			gap: 30px;
+			height: 628px;
+			.left {
+				display: flex;
+				flex-direction: column;
+				align-items: flex-start;
+				gap: 10px;
+				.card {
+					display: flex;
+					align-items: center;
+					gap: 20px;
+					width: 360px;
+					height: 106px;
+					border-radius: 20px;
+					border: 1px solid rgba(47, 43, 67, 0.15);
+					padding: 20px;
+					.ism {
+						padding-top: 5px;
+						color: #140a32;
+						font-family: OpenSemiBold;
+						font-size: 14px;
+						font-style: normal;
+						font-weight: 600;
+						line-height: normal;
+					}
+					.yurist {
+						color: #140a32;
+						font-family: OpenRegular;
+						font-size: 12px;
+						font-style: normal;
+						font-weight: 400;
+						line-height: normal;
+					}
+					.konsult {
+						color: rgba(47, 43, 67, 0.5);
+						font-family: OpenRegular;
+						font-size: 12px;
+						font-style: normal;
+						font-weight: 400;
+						line-height: normal;
+					}
+				}
+				button {
+					display: flex;
+					width: 360px;
+					height: 56px;
+					padding: 16px 36px 18px 36px;
+					justify-content: center;
+					align-items: center;
+					gap: 10px;
+					border-radius: 10px;
+					border: none;
+					background: #e0ece9;
+				}
+			}
+			.right {
+				display: flex;
+				height: 628px;
+				padding: 20px;
+				flex-direction: column;
+				align-items: flex-start;
+				gap: 15px;
+				position: relative;
+				border-radius: 20px;
+				background: #33836e;
+				.online {
+					display: flex;
+					// padding: 5px 12px 6px 12px;
+					justify-content: center;
+					max-width: 94px;
+					align-items: center;
+					// gap: 10px;
+					position: absolute;
+					border-radius: 10px;
+					background: #fff;
+					border: none;
+					top: 20px;
+					left: 20px;
+					// left: 0;
+					img {
+						width: 32px;
+						height: 10px;
+					}
+				}
+				.txt {
+					h2 {
+						color: #fff;
+						margin-top: 40px;
+						font-family: OpenBold;
+						font-size: 20px;
+						font-style: normal;
+						font-weight: 700;
+						line-height: normal;
+						letter-spacing: -0.96px;
+					}
+					p {
+						padding-top: 10px;
+						color: #fff;
+						font-family: OpenRegular;
+						font-size: 16px;
+						font-style: normal;
+						font-weight: 400;
+						line-height: normal;
+					}
+				}
+				#problem {
+					margin-top: -30px;
+					width: 320px;
+					height: 213px;
+					padding: 12px 16px 8px 16px;
+					border-radius: 10px;
+					background: #fff;
+					border: none;
+				}
+				.send {
+					display: flex;
+					flex-direction: column;
+					gap: 15px;
+					.nomer {
+						width: 320px;
+						height: 56px;
+						display: flex;
+						padding: 5px 16px 7px 16px;
+						flex-direction: column;
+						justify-content: center;
+						gap: 3px;
+						align-self: stretch;
+						border-radius: 10px;
+						border: 1px solid rgba(47, 43, 67, 0.15);
+						border: rgba(47, 43, 67, 0.15);
+						background: #fff;
+					}
+					.aleksey {
+						width: 320px;
+						height: 56px;
+						display: flex;
+						padding: 5px 16px 7px 16px;
+						flex-direction: column;
+						justify-content: center;
+						gap: 3px;
+						align-self: stretch;
+						border-radius: 10px;
+						border: 1px solid rgba(47, 43, 67, 0.15);
+						border: rgba(47, 43, 67, 0.15);
+						background: #fff;
+						label {
+							color: rgba(47, 43, 67, 0.4);
+							text-align: center;
+							font-family: OpenRegular;
+							font-size: 12px;
+							font-style: normal;
+							font-weight: 400;
+							line-height: normal;
+						}
+						color: #140a32;
+						text-align: center;
+						font-family: OpenRegular;
+						font-size: 16px;
+						font-style: normal;
+						font-weight: 400;
+						line-height: normal;
+					}
+					.otp {
+						padding: 16px 24px 18px 24px;
+						border-radius: 10px;
+						background: #140a32;
+						color: #fff;
+						border: none;
+					}
+				}
+				.desc {
+					color: rgba(255, 255, 255, 0.5);
+					font-family: OpenRegular;
+					font-size: 12px;
+					font-style: normal;
+					font-weight: 600;
+					line-height: normal;
+					margin-top: -15px;
+				}
+				.green-txt {
+					display: flex;
+					gap: 40px;
+					.h2 {
+						display: flex;
+						flex-direction: column;
+						gap: 10px;
+						h5 {
+							color: #fff;
+							font-family: OpenBold;
+							font-size: 20px;
+							font-style: normal;
+							font-weight: 700;
+							line-height: normal;
+							letter-spacing: -0.6px;
+						}
+						p {
+							color: #fff;
+							font-family: OpenRegular;
+							font-size: 16px;
+							font-style: normal;
+							font-weight: 400;
+							line-height: normal;
+						}
+					}
+					.p {
+						display: flex;
+						flex-direction: column;
+						gap: 10px;
+						h5 {
+							color: #fff;
+							font-family: OpenBold;
+							font-size: 20px;
+							font-style: normal;
+							font-weight: 700;
+							line-height: normal;
+							letter-spacing: -0.6px;
+						}
+						p {
+							color: #fff;
+							font-family: OpenRegular;
+							font-size: 16px;
+							font-style: normal;
+							font-weight: 400;
+							line-height: normal;
+						}
+					}
+				}
+			}
+		}
+	}
+}

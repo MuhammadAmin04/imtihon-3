@@ -1,0 +1,28 @@
+*::after,
+*::before,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: OpenRegular;
+    // overflow-x: hidden;
+}
+
+
+@font-face {
+  font-family: OpenRegular;
+  src: url(/assets/fonts/OpenSans-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: OpenBold;
+  src: url(/assets/fonts/OpenSans-Bold.ttf);  
+  font-weight: 700;
+}
+
+@font-face {
+    font-family: OpenSemiBold;
+    src: url(/assets/fonts/OpenSans-SemiBold.ttf);
+    font-weight: 600;
+}

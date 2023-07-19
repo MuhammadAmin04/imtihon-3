@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Modal Window with Menu Button</title>
+		<style>
+			/* Modal styles */
+			.modal {
+				display: none;
+				position: fixed;
+				z-index: 1;
+				left: 25%;
+				top: 25%;
+				width: 896px;
+				height: 397px;
+				overflow: hi;
+				background-color: rgba(0, 0, 0, 0.4);
+				border-radius: 20px;
+				background: #fff;
+				box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.1);
+			}
+
+			.modal-content {
+				background-color: #fefefe;
+				margin: 15% auto;
+				padding: 20px;
+				border: 1px solid #888;
+				width: 80%;
+				max-width: 400px;
+			}
+
+			.modal-header {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				padding: 10px;
+				background-color: #f5f5f5;
+				border-bottom: 1px solid #ddd;
+			}
+
+			.modal-header h2 {
+				margin: 0;
+			}
+
+			/* Menu button */
+			.menu-button {
+				font-size: 28px;
+				cursor: pointer;
+			}
+
+			/* Close button */
+			.close {
+				color: #aaa;
+				font-size: 28px;
+				font-weight: bold;
+				cursor: pointer;
+			}
+
+			.close:hover,
+			.close:focus {
+				color: black;
+				text-decoration: none;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Menu Button with Modal Window</h1>
+
+		<!-- Menu button -->
+		<div class="menu-button">&#9776;</div>
+
+		<!-- Modal -->
+		<div id="modal" class="modal">
+			<div class="woman">
+				<div class="modal-header">
+					<div class="left">
+						<img src="./assets/images/Frame 986.png" alt="" />
+					</div>
+					<div class="right">
+						<h1>Бесплатная юридическая консультация по телефону</h1>
+						<div>
+							<img src="./assets/images/client.svg" alt="" />
+							<p>64 юриста сейчас онлайн</p>
+						</div>
+						<div class="send">
+							<input
+								type="number"
+								class="nomer"
+								placeholder="+7 963 335-87-52"
+							/>
+							<button class="aleksey">
+								<label for="">Ваше имя</label> Александр
+							</button>
+							<button class="otp">Отправить</button>
+						</div>
+						<p class="desc">
+							Отправляя вопрос, вы соглашаетесь с условиями Пользовательского
+							соглашения
+						</p>
+					</div>
+					<span class="close">&times;</span>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			// Get the menu button element
+			var menuButton = document.querySelector(".menu-button");
+
+			// Get the modal element
+			var modal = document.getElementById("modal");
+
+			// Get the close button element
+			var closeBtn = document.getElementsByClassName("close")[0];
+
+			// Toggle the modal when the menu button is clicked
+			menuButton.onclick = function () {
+				modal.style.display =
+					modal.style.display === "block" ? "none" : "block";
+			};
+
+			// Close the modal when the close button is clicked
+			closeBtn.onclick = function () {
+				modal.style.display = "none";
+			};
+
+			// Close the modal when the user clicks outside of it
+			window.onclick = function (event) {
+				if (event.target == modal) {
+					modal.style.display = "none";
+				}
+			};
+		</script>
+	</body>
+</html>
